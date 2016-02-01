@@ -1,4 +1,10 @@
-//Make data-set 
+/*
+create adjacency matrix
+隣接行列を生成する. 
+頂点数2**nとなる整数nを与える. 
+辺数mは適宜変更する. 
+*/
+
 #include <iostream>
 #include <algorithm>
 #include <cstdio>
@@ -12,7 +18,6 @@
 using namespace std;
 typedef vector<vector<int> > Matrix;
 Matrix d;
-
 
 void createData(int n, int m){
 	srand((unsigned int)time(NULL));
@@ -36,7 +41,7 @@ void initArray(int n){
 		}
 }
 
-void getArray(int n){
+void showArray(int n){
 	for (int i = 0; i < n; i++)
 		for (int j = 0; j < n; j++) {
 			cout << setw(10) << d[i][j] << " ";
@@ -50,16 +55,13 @@ int main(){
 	cin >> n;
 	n = pow(2, n);
 	m = n * (n - 1);
-	
 
-	
 	d = Matrix(n, vector<int>(n, INF));
  	for (int i = 0; i < n; i++) d[i][i] = 0;
 
 	initArray(n);
 	createData(n, m);
 
-	
 	cout << n << " " << m << endl;
   	for (int i = 0; i < n; i++)
       for (int j = 0; j < n; j++) {
@@ -67,8 +69,7 @@ int main(){
         if (j == n - 1) cout << endl;
     }
 	
-	//getArray(n);
-
+	//showArray(n);
 
 	return 0;
 }

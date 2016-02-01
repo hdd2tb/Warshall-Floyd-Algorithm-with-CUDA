@@ -1,4 +1,7 @@
-//calculate with Zero-Copy Memory
+/*
+calculate with Zero-Copy Memory
+Zero-Copy Memoryを用いた実装
+*/
 
 #include "include/gpgpu.h"
 #include "include/ZeroCopy.h"

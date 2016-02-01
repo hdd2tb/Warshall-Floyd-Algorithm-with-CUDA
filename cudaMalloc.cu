@@ -1,4 +1,7 @@
-//calculate with cudaMalloc() and cudaMemcpy()
+/*
+calculate with cudaMalloc() and cudaMemcpy()
+cudaMalloc()とcudaMemcpy()を用いた実装
+*/
 
 #include "include/gpgpu.h"
 #include "include/Adjacency.h"

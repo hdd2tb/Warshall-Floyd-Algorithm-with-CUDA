@@ -1,3 +1,8 @@
+/*
+Class to implement Zero-Copy Memory
+Zero-Copy Memoryを実装するためのクラス
+*/
+
 #ifndef ZEROCOPY_H
 #define ZEROCOPY_H
 

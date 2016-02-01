@@ -1,3 +1,8 @@
+/*
+Class to use cudaMalloc() and cudaMemcpy()
+cudaMalloc() and cudaMemcpy()を使用するためのクラス
+*/
+
 #ifndef CUMALL_H
 #define CUMALL_H
 

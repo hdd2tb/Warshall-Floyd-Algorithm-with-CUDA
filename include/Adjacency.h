@@ -1,3 +1,8 @@
+/*
+Class to implement Adjacency Matrix
+隣接行列を実装するためのクラス
+*/
+
 #ifndef ADJACENCY_H
 #define ADJACENCY_H
 

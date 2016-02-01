@@ -1,4 +1,7 @@
-//calculate with ArrayFire
+/*
+calculate with ArrayFire
+ArrayFireを用いた実装
+*/
 
 #include <arrayfire.h>
 #include <algorithm>

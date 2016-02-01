@@ -1,3 +1,8 @@
+/*
+Header file to implement Warshall-Floyd algorithm
+Warshall-Floyd法を実装するためのヘッダファイル 
+*/
+
 #ifndef GPGPU_H
 #define GPGPU_H
  

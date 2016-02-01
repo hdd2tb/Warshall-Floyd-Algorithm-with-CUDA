@@ -1,4 +1,7 @@
-//calculate with Unified Memory
+/*
+calculate with Unified Memory
+Unified Memoryを用いた実装
+*/
 
 #include "include/gpgpu.h"
 #include "include/Unified.h"

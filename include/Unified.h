@@ -1,3 +1,8 @@
+/*
+Class to implement Unified Memory
+Unified Memoryを実装するためのクラス
+*/
+
 #ifndef UNIFIED_H
 #define UNIFIED_H
 

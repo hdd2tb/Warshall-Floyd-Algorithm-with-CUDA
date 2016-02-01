@@ -1,3 +1,9 @@
+/*
+Class to time elapsed
+実行時間を計測するためのクラス 
+*/
+
+
 #ifndef ELAPSED_H
 #define ELAPSED_H
 
